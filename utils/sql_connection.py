@@ -25,7 +25,7 @@ def set_connection(sql_type):
 
 # Variables
 sql_type = 'mysql'
-connection = set_connection('mysql')
+connection = set_connection(sql_type)
 
 # Function
 def insert_info(table, price, date, time):
