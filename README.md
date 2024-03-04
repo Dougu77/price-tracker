@@ -1,4 +1,4 @@
-# Rastreador de Preço
+# Rastreador de Preços
 
 - O programa rastreia e armazena os preços de produtos em sites, em um Banco de Dados, dentro de intervalos regulares.
 - Sites suportados: [Kabum](https://www.kabum.com.br/), [Magazine Luiza](https://www.magazineluiza.com.br/) e [Eneba](https://www.eneba.com/br/).
