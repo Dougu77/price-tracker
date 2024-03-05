@@ -18,6 +18,9 @@ def get_message(message):
     if language == 'pt-br':
         messages = {
             'program_beginning': 'Iniciando o programa...\n',
+            'package_install': 'Instalando / Atualizando os pacotes...\n',
+            'package_success': 'Pacotes instalados / atualizados com sucesso!\n',
+            'error_package': 'Erro: Algo deu errado na hora de instalar os pacotes.',
             'error_request': 'Erro: Algo deu errado na hora de pesquisar na URL.',
             'error_store': 'Erro: Algo deu errado na hora de identificar a loja.',
             'error_date': 'Erro: Algo deu errado na hora de registrar a data.',
@@ -28,6 +31,9 @@ def get_message(message):
     elif language == 'en':
         messages = {
             'program_beginning': 'Starting the program...\n',
+            'package_install': 'Installing / Updating packages...\n',
+            'package_success': 'Packages installed / updated!\n',
+            'error_package': 'Error: Something went wrong when trying to install the packages.',
             'error_request': 'Error: Something went wrong when trying to use the URL.',
             'error_store': 'Error: Something went wrong when trying to identify the store.',
             'error_date': 'Error: Something went wrong when trying to register the date.',

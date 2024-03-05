@@ -1,3 +1,9 @@
+# Import install_packages()
+from utils.requirements import *
+
+# Install / Update packages
+install_packages()
+
 # Imports
 from utils.get_datetime import *
 from utils.http_request import *
@@ -8,6 +14,9 @@ from time import sleep
 
 # System message
 print(get_message('program_beginning'))
+
+# System message
+print(get_message('line'))
 
 # Make the program runs constantly
 while True:
@@ -36,4 +45,4 @@ while True:
     print(get_message('line'))
     
     # Interval between each search of all products (seconds)
-    sleep(5)
+    sleep(60 * 30)
