@@ -1,6 +1,6 @@
 # Imports
 from datetime import datetime
-from utils.messages import *
+from messages import *
 
 # Functions
 def get_date():

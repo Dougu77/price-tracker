@@ -1,7 +1,7 @@
 # Imports
 import requests
 from bs4 import BeautifulSoup
-from utils.messages import *
+from messages import *
 
 # Functions
 def request_url(url):

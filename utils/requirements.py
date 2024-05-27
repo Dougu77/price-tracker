@@ -1,7 +1,6 @@
 # Imports
-import sys
 import subprocess
-from utils.messages import *
+from messages import *
 
 # Function
 def install_packages():

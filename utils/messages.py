@@ -1,5 +1,5 @@
 # Import
-from utils.get_datetime import get_date, get_time
+from get_datetime import get_date, get_time
 
 # Variable
 language = 'pt-br'
