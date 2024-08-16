@@ -1,4 +1,6 @@
-# Rastreador de Preços
+# Price Tracker
+
+## Informações
 
 - O programa rastreia e armazena os preços de produtos em sites, em um Banco de Dados, dentro de intervalos regulares.
 - Sites suportados: [Kabum](https://www.kabum.com.br/), [Magazine Luiza](https://www.magazineluiza.com.br/) e [Eneba](https://www.eneba.com/br/).
@@ -10,7 +12,7 @@
 - Modifique o intervalo entre uma pesquisa e outra em "sleep", na [main](https://github.com/Dougu77/price-tracker/blob/main/main.py).
 - Modifique a lista de produtos a ser pesquisada em [products](https://github.com/Dougu77/price-tracker/blob/main/utils/products.py), seguindo o modelo dos itens já presentes.
 
-# Price Tracker
+# Informations
 
 - The program tracks and stores the prices of products from e-commerces, in a Database, following a regular interval.
 - Supported websites: [Kabum](https://www.kabum.com.br/), [Magazine Luiza](https://www.magazineluiza.com.br/) and [Eneba](https://www.eneba.com).
